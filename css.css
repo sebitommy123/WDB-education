@@ -1,0 +1,91 @@
+body {
+  margin: 0px;
+  background-color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  padding: 20px;
+  justify-content: flex-end;
+  margin-bottom: 40px;
+}
+
+.logo {
+  float: left;
+  padding: 23px;
+  cursor: pointer;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.navelm {
+  padding: 7px 10px;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+
+.navelm.underline, .navelm:hover {
+  border-bottom: black 1px solid;
+}
+
+.navelm.bold {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+.content {
+  margin: 20px;
+}
+
+.title {
+  font-size: 45px;
+  max-width: 700px;
+  line-height: 70px;
+}
+
+.subtitle {
+  font-size: 30px;
+  margin-top: 35px;
+  line-height: 45px;
+}
+
+.downarrow {
+  width: 40px;
+  cursor: pointer;
+}
+
+.threeColumns {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.column {
+  width: 100%;
+  min-height: 70px;
+  padding: 50px;
+  padding-bottom: 0px;
+}
+
+.container {
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #eee;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.container img {
+  width: 100%;
+}
+
+.footer {
+  border-top: 1px black solid;
+  padding: 30px;
+  margin-top: 100px;
+}
