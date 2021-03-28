@@ -1,0 +1,55 @@
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.calculator {
+
+  width: 515px;
+  height: 745px;
+  background-color: black;
+
+}
+
+.display {
+  height: 100px;
+  text-align: right;
+  font-size: 45px;
+  line-height: 100px;
+  font-family: monospace;
+  color: white;
+  padding-right: 15px;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.button {
+  background-color: #D8D9DB;
+  width: 125px;
+  margin-right: 5px;
+  height: 125px;
+  font-size: 45px;
+  font-family: monospace;
+  line-height: 125px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+.button:last-child {
+  margin-right: 0px;
+  color: white;
+  background-color: #DF974C;
+}
+
+.doubleWidth {
+  width: 255px;
+}
+
+.tripleWidth {
+  width: 385px;
+}
